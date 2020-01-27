@@ -1,8 +1,16 @@
 <!DOCTYPE html>
 <html>
    <head>
-     <title>FlowPlex Studio | Explorer's Realm</title>
-     <meta charset="UTF-8">
-		<link rel="stylesheet" href="styles.css">
+  	<title>FlowPlex Studio | Explorer's Realm</title>
+  	<meta charset="UTF-8">
+  	<link rel="stylesheet" href="styles.css">
   </head>
+  <body>
+  	<header>
+		<h1>Explorer's Realm</h1>
+	</header>
+	<article>
+		<iframe src="https://playcanv.as/p/Ba7GoFAd/">Couldn't Load :(</iframe>
+	</article>
+  </body>
 </html>
