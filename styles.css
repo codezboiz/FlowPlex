@@ -1,5 +1,5 @@
 body {
-	background-image: url(bg.png);
+	background-image: url("bg.png");
 }
 
 p, h1, h2, h3, a, strong, em {
