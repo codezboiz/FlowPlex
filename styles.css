@@ -7,3 +7,9 @@ p, h1, h2, h3, a, strong, em {
 	color: rgb(244, 244, 244);
 	font-family: "product sans";
 }
+
+iframe {
+	text-align: center;
+	width: 300;
+	height: 200;
+}
