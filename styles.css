@@ -2,7 +2,7 @@ body {
 	background-image: url("bg.png");
 }
 
-p, h1, h2, h3, a, strong, em, a {
+p, h1, h2, h3, a, strong, em, a, li {
 	text-align: center;
 	color: rgb(244, 244, 244);
 	font-family: roboto;
