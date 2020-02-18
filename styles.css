@@ -2,6 +2,10 @@
 	background-image: url("bg.png");
 }
 
+#PolyBrawlBody {
+	background-image: url("polybg.png");
+}
+
 @font-face { font-family: Product; src: url('product.ttf'); }
 
 p, h1, h2, h3, h4, a, strong, em, a {
