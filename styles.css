@@ -2,8 +2,10 @@ body {
 	background-image: url("bg.png");
 }
 
+@font-face { font-family: Product; src: url('product.ttf'); }
+
 p, h1, h2, h3, h4, a, strong, em, a {
 	text-align: center;
 	color: rgb(244, 244, 244);
-	font-family: roboto;
+	font-family: Product;
 }
