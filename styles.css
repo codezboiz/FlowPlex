@@ -12,7 +12,7 @@
 }
 
 #YeetWarsBody {
-	background: url("yeetbg.png");	
+	background: url("yeetbg.png") center fixed no-repeat;	
 }
 
 @font-face { font-family: Product; src: url('product.ttf'); }
