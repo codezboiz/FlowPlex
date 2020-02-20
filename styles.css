@@ -11,6 +11,10 @@
 	background: url("erbg1.png") center fixed no-repeat;
 }
 
+#YeetWarsBody {
+	background: url("yeetbg.png");	
+}
+
 @font-face { font-family: Product; src: url('product.ttf'); }
 
 p, h1, h2, h3, h4, a, strong, em, a {
