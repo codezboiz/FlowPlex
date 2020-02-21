@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+   <head>
+  	<title>FlowPlex Studio | Explorer's Realm</title>
+  	<meta charset="UTF-8">
+  	<link rel="stylesheet" href="styles.css">
+	<link rel="icon" href="https://s3-eu-west-1.amazonaws.com/apps.playcanvas.com/5M2Xw2rr/thumbs/180.jpg">
+  </head>
+  <body id="ExplorersRealmBody">
+  	<header>
+		<h1>Explorer's Realm©</h1>
+		<h2>Main Page > Explorer's Realm</h2>
+		</br>
+	</header>
+	<nav>
+		<p><a href="FrontPage.html">BACK TO HOME</a></p>
+		<p><a href="https://playcanvas.com/project/657174/overview/explorers-realm">Page on Playcanvas</a></p>
+	</nav>
+	<article>
+		<p><iframe src="https://playcanv.as/p/Ba7GoFAd/" width="750px" height="600px" id="game">Couldn't Load :(</iframe></p>
+		<p><button type="button" class="button" onclick="openFullscreen();">Go Fullscreen</button></p>
+		<h2>Intro and tutorial.</h3>
+		<p>Explorer's Realm is a strategy game that is still in a beta.</br>
+		You are stuck in a strange dream that has set you in the past and</br>
+		you need to survive. Move with the arrow keys and collect from the</br>
+		areas that you have moved to. Go to the title screen and click tutorial</br>
+		for more information</p>
+		</br>
+		<h3>Controls</h3>
+		<p>Arrow keys to move</p>
+		<p>E to collect materials</p>
+		</br>
+		<h3>What to see next</h3>
+		<p>At the current moment you can only collect food and water (the only things</br>
+		that are useful), but eventually you should see using wood and stone (not in the game</br>
+		yet) to build stuff. You should also get a chance to see a bigger map and more areas.</p>
+		</br>
+	</article>
+	<footer>
+		<h2>You can check out athe other games we've made so far down here.</h2>
+		<br>
+		<p style="font-size:40px;"> <a href="polybrawl.html">/\PolyBrawl/\</a> &nbsp;&nbsp;&nbsp; <a href="explorersrealm.html">Explorer's Realm</a> &nbsp;&nbsp;&nbsp; <a href="yeetwars.html">Yeet Wars</a>
+	
+		<script>
+			var elem = document.getElementById("game");
+			function openFullscreen() {
+			  if (elem.requestFullscreen) {
+				elem.requestFullscreen();
+			  } else if (elem.mozRequestFullScreen) { /* Firefox */
+				elem.mozRequestFullScreen();
+			  } else if (elem.webkitRequestFullscreen) { /* Chrome, Safari & Opera */
+				elem.webkitRequestFullscreen();
+			  } else if (elem.msRequestFullscreen) { /* IE/Edge */
+				elem.msRequestFullscreen();
+			  }
+			}
+		</script>
+	</footer>
+  </body>
+</html>
