@@ -1,3 +1,7 @@
+html {
+	scroll-behavior: smooth;
+}
+
 #FrontPageBody {
 	background-image: url("bg.png");
 }
