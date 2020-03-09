@@ -1,0 +1,63 @@
+ï»¿<!DOCTYPE html>
+<html>
+   <head>
+  	<title>FlowPlex Studio | 4th Dimension</title>
+  	<meta charset="UTF-8">
+  	<link rel="stylesheet" href="styles.css">
+	<link rel="icon" href="https://s3-eu-west-1.amazonaws.com/apps.playcanvas.com/8DFc6ppM/thumbs/180.jpg">
+  </head>
+  <body id="FDBody">
+  	<header>
+		<h1>4th Dimension©</h1>
+		<h2>Main Page > 4th Dimension</h2>
+		</br>
+	</header>
+	<nav>
+		<p><a href="FrontPage.html">BACK TO HOME</a></p>
+		<p><a href="https://playcanvas.com/project/665466/overview/4th-dimension">Page on Playcanvas</a></p>
+	</nav>
+	<article>
+		<p><iframe src="https://playcanv.as/p/oDgH45vN/" width="850px" height="600px" id="game">Couldn't Load :(</iframe></p>
+		<p><button type="button" class="button" onclick="openFullscreen();">Go Fullscreen</button></p>
+		<h2>Intro and tutorial.</h3>
+		<p>4th Dimension is a game where things are different from the 3rd dimension</br>
+	  You have been sent to the 4th dimension, where everything is different.</br>
+		There are portals, which some are bad and send you back, and some help you.</br>
+		You also have to change directions in order to move to new places.</p>
+		</br>
+		<h3>Controls</h3>
+		<p><h4>Player 1</h4></p>
+		<p>Arrow keys to move</p>
+		<p>Up arrow to jump</p>
+		<p>1 and 2 to change directions</p>
+		</br>
+		<h3>What to see next</h3>
+		<p>Just expect more features, and more levels.</br>
+		Right now, I am working on making new "worlds" (were different types of levels are),</br>
+		like the dungeon and maybe a world where you are between dimensions.</p>
+		</br>
+	</article>
+	<footer>
+		<h2>You can check out the other games we've made so far down here.</h2>
+		<br>
+		<p style="font-size:40px;"> <a href="polybrawl.html">/\PolyBrawl/\</a> &nbsp;&nbsp;&nbsp; <a href="4d.html">4th Dimension</a>
+		<p style="font-size:13px;"><a href = "mailto:syliscoles@gmail.com?subject=Feedback&body=Message">Send Feedback (to Sylis) or Just Contact Us</a></p>
+		<p style="font-size:13px;"><a href = "mailto:s28221695@stu.palmbeachschools.org?subject=Feedback&body=Message">Send Feedback (to Ryan) or Just Contact Us</a></p>
+			
+		<script>
+			var elem = document.getElementById("game");
+			function openFullscreen() {
+			  if (elem.requestFullscreen) {
+				elem.requestFullscreen();
+			  } else if (elem.mozRequestFullScreen) { /* Firefox */
+				elem.mozRequestFullScreen();
+			  } else if (elem.webkitRequestFullscreen) { /* Chrome, Safari & Opera */
+				elem.webkitRequestFullscreen();
+			  } else if (elem.msRequestFullscreen) { /* IE/Edge */
+				elem.msRequestFullscreen();
+			  }
+			}
+		</script>
+	</footer>
+  </body>
+</html>
